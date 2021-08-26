@@ -1,0 +1,24 @@
+{
+	"Cria uma novo component no padro PrevLogic": {
+		"prefix": "react.lc",
+		"body": [
+			"// import { Conatainer } from './styles';",
+			"",
+			"interface Props {};",
+			"",
+			"function ${1:NomeComponent}({}: Props) {",
+			"  return (",
+			"       <>",
+			"        {/*<Container>*/}    ",
+			"            <h1>${1:NomeComponent} component</h1>    ",
+			"        {/*</Container>*/}",
+			"      </>",
+			"  );",
+			"}",
+			"",
+			"export { ${1:NomeComponent} };",
+			"export type { Props as ${1:NomeComponent}Props};"
+		],
+		"description": "Cria uma novo component no padro PrevLogic"
+	}
+}
